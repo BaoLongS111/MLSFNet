@@ -13,8 +13,8 @@ The used datasets are provided in [BACH](https://iciar2018-challenge.grand-chall
 ## Model
 We now provide the model weights in the following [link](https://pan.baidu.com/s/1nt9LOERcNLfcv-i3EdVPow?pwd=mlsf).
 ## Train
-The MLSFNet model file is located at `/MLSFNet/mmpretrain/models/backbones/modules/MLSFNet.py`. 
-If you want to train or test the model, please replace the contents of `/MLSFNet/mmpretrain/models/backbones/swin_transformer.py` with those in `/MLSFNet/mmpretrain/models/backbones/swin_transformer_mlsfnet.py`. 
+The MLSFNet model file is located at `/MLSFNet/mmpretrain/models/backbones/modules/MLSFNet.py`. <br>
+If you want to train or test the model, please replace the contents of `/MLSFNet/mmpretrain/models/backbones/swin_transformer.py` with those in `/MLSFNet/mmpretrain/models/backbones/swin_transformer_mlsfnet.py`. <br>
 Please make sure to back up the original `SwinTransformer` code in advance.<br>
 The model can be trained with the following command.<br>
 <code>export CUBLAS_WORKSPACE_CONFIG=":4096:8"</code><br>

@@ -1,5 +1,5 @@
 # MLSFNet
-A Multi-scale Learnable Soft-Fusion Network for Breast Cancer Pathology Image Classification
+- A Multi-scale Learnable Soft-Fusion Network for Breast Cancer Pathology Image Classification
 ## Installation 
 - To prepare the environment, please follow the following instructions.<br>
 <code>conda create --name openmmlab python=3.8 -y</code><br>

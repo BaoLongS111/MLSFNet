@@ -5,7 +5,7 @@
 <code>conda create --name openmmlab python=3.8 -y</code><br>
 <code>conda activate openmmlab</code><br>
 <code>conda install pytorch torchvision -c pytorch</code> This command will automatically install the latest version PyTorch and cudatoolkit, please check whether they match your environment.<br>
-<code>git clone https://github.com/BaoLongS111/MLSFNet.git</code><br>
+<code>git clone https://github.com/BaoLongS111/MHCLNet.git</code><br>
 <code>cd MLSFNet</code><br>
 <code>pip install -U openmim && mim install -e .</code><br>
 ## Datasets

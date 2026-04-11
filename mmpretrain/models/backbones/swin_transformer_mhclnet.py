@@ -19,7 +19,7 @@ from .base_backbone import BaseBackbone
 import torch
 import torch.nn as nn
 from mmengine.model import BaseModule
-from .modules.MLSFNet import MLSFNet
+from .modules.MHCLNet import MHCLNet
 
 class SwinBlock(BaseModule):
     """Swin Transformer block.

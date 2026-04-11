@@ -1,5 +1,5 @@
-# MLSFNet
-- A Multi-scale Learnable Soft-Fusion Network for Breast Cancer Pathology Image Classification
+# MHCLNet
+- A Multi-Scale Pathological Context Learning Network for Breast Cancer Histopathology Image Classification
 ## Installation 
 - To prepare the environment, please follow the following instructions.<br>
 <code>conda create --name openmmlab python=3.8 -y</code><br>
@@ -13,8 +13,8 @@
 ## Model
 - We now provide the model weights in the following [link](https://pan.baidu.com/s/1nt9LOERcNLfcv-i3EdVPow?pwd=mlsf).
 ## Train
-- The MLSFNet model file is located at `/MLSFNet/mmpretrain/models/backbones/modules/MLSFNet.py`. <br>
-- If you want to train or test the model, please replace the contents of `/MLSFNet/mmpretrain/models/backbones/swin_transformer.py` with those in `/MLSFNet/mmpretrain/models/backbones/swin_transformer_mlsfnet.py`. <br>
+- The MHCLNet model file is located at `/MHCLNet/mmpretrain/models/backbones/modules/MHCLNet.py`. <br>
+- If you want to train or test the model, please replace the contents of `/MHCLNet/mmpretrain/models/backbones/swin_transformer.py` with those in `/MHCLNet/mmpretrain/models/backbones/swin_transformer_mhclnet.py`. <br>
 - Please make sure to back up the original SwinTransformer code in advance.<br>
 - The model can be trained with the following command.<br>
 <code>export CUBLAS_WORKSPACE_CONFIG=":4096:8"</code><br>
